@@ -23,7 +23,7 @@ public class Main {
         EmpleadoDAO modeloL = new EmpleadoDAO();
         ControladorLogin controladorL = new ControladorLogin(vistaL, modeloL);
         vistaL.setVisible(true);
-        /*vistaL.setLocationRelativeTo(null);*/
+        vistaL.setLocationRelativeTo(null);
         
         
         

@@ -21,6 +21,7 @@ public Empleado verificaUsuario(String dni, String password, String privilegio){
     Connection accesoBD = conexion.getConexion();
     try {
         PreparedStatement ps = accesoBD.prepareStatement("select * from empleado where dni=? and password=? and privilegio=?");
+        
         ps.setString(1, dni);
         ps.setString(2, password);
         ps.setString(3, privilegio);

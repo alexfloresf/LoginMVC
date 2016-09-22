@@ -63,6 +63,5 @@ public class Empleado {
     public void setPrivilegio(String privilegio) {
         this.privilegio = privilegio;
     }
-    
-    
+        
 }

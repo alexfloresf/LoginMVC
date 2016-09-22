@@ -26,8 +26,7 @@ public class Conexion {
          } catch(SQLException ex){
            
        } catch(Exception e){
-           
-       }
+         }
        return con;
     }
 }

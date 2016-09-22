@@ -10,7 +10,6 @@ package Vista;
  * @author Alex
  */
 public class JFLogin extends javax.swing.JFrame {
-
     /**
      * Creates new form JFLogin
      */

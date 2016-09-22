@@ -39,6 +39,7 @@ public class ControladorLogin implements ActionListener{
             JOptionPane.showMessageDialog(vistaLogin, "Empleado con datos ingresados no encontrado.");
         }else{
             JOptionPane.showMessageDialog(vistaLogin,"Datos correctos.");
+            
             JFGerente vistaG = new JFGerente();
             vistaG.lblBienvenida.setText("Bienvenid@: "+empleado.getNombres());
             ControladorGerente controladorG = new ControladorGerente(vistaG, modeloLogin);

@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Alex
+ * @author Alex Flores
  */
 public class ControladorGerente implements ActionListener{
     JFGerente vistaGerente = new JFGerente();
