@@ -22,7 +22,7 @@ public class Conexion {
            /* carga ! registra el drive JDBC */
           Class.forName("com.mysql.jdbc.Driver").newInstance();
           /* Obtener la conexión */
-          con = DriverManager.getConnection("jdbc:mysql://ca-cdbr-azure-central-a.cloudapp.net:3306/arau_zco","b04509dd6946ce","cf597077");
+          con = DriverManager.getConnection("jdbc:mysql://ca-cdbr-azure-central-a.cloudapp.net:3306/arau_zco","userDB","pswDB");
          } catch(SQLException ex){
            
        } catch(Exception e){
